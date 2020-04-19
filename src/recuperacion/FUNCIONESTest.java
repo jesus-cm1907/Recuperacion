@@ -26,21 +26,16 @@ class FUNCIONESTest {
 		arrayTest[1] = 5;
 		arrayTest[2] = 11;
 	
-	
-	
-	arrayTest2 = new int [3];
-	arrayTest2[0]=7;
-	arrayTest2[1]=9;
-	arrayTest2[2]=4;
-	
-	
-	
+		arrayTest2 = new int [3];
+		arrayTest2[0]=7;
+		arrayTest2[1]=9;
+		arrayTest2[2]=4;
 	
 	}
 	
 	
 	@Test
-	@DisplayName("Primera prueba")
+	@DisplayName("Primer prueba")
 	void Entornos1Test() {
 		assertEquals(2, funcion.Entornos1("Jesus"));
 		
@@ -54,7 +49,7 @@ class FUNCIONESTest {
 	}
 	
 	@Test
-	@DisplayName("Tercera  prueba")
+	@DisplayName("Tercer prueba")
 	void Entornos3Test() {
 		
 		assertEquals(11,funcion.funcion3(arrayTest));
